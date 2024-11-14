@@ -46,7 +46,7 @@ class VirtualAssistant:
             self.engine.setProperty('voice', voices[1].id)  # Choose voice
         else:
             self.engine.setProperty('voice', voices[0].id)
-        self.engine.setProperty('rate', 150)  # Speech rate
+        self.engine.setProperty('rate', 155)  # Speech rate
 
         self.log_handler = log_handler
         self.log = self.log_handler.new_log.emit
