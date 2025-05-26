@@ -133,7 +133,7 @@ class VirtualAssistant:
 
     def get_weather(self):
         """Fetch and speak the current weather."""
-        api_key = "7643d76b3c5b557d2177eb82a2421c68"  # Replace with your OpenWeatherMap API key
+        api_key = ""  # Replace with your OpenWeatherMap API key
         city = "Phoenix"  # Replace with your city
         url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
