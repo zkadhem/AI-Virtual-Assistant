@@ -162,7 +162,7 @@ class VirtualAssistant:
 
     def get_news(self):
         """Fetch and speak the latest news headlines."""
-        api_key = "a1bd3f8453bd417d9ad5c810139b0c29"  # Replace with your NewsAPI API key
+        api_key = ""  # Replace with your NewsAPI API key
         url = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={api_key}"
 
         try:
